@@ -1,10 +1,10 @@
 import { Badge } from '@material-ui/core';
-import { ShoppingCardtOutlined } from '@material-ui/icons';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 const CartWidget = () => {
     return (
         <Badge badgeContent={8} color="secondary">
-            <ShoppingCardtOutlined/>
+           < AddShoppingCartIcon />
         </Badge>
     )
 }
